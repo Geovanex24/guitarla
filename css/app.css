@@ -330,3 +330,26 @@ img {
   overflow: hidden;
   font-size: 1.6rem;
 }
+
+/* Footer */
+.footer {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+.footer__grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .footer__grid {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer__copyright {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
