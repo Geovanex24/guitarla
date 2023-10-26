@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA | [page]</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <a href="/">
+                    <img class="header__logo" src="img/logo.svg" alt="Logo GuitarLA">
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="/">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+                </nav>
+            </div><!-- .header__barra -->
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <div class="producto">
+            <img class="producto__imagen" src="img/guitarra_04.jpg" alt="Imagen del producto">
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Vai</h3>
+                <p class="producto__descripcion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aut obcaecati blanditiis dolore
+                    itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum optio et magni dolorem ut.
+                    Explicabo blanditiis pariatur, accusantium deserunt beatae dolorem doloremque aspernatur! Reiciendis
+                    in adipisci ipsum, accusantium dolores officia.
+                </p>
+                <p class="producto__precio">$299</p>
+
+
+                <form class="producto__formulario">
+                    <label for="cantidad" class="producto__label">Cantidad</label>
+                    <select id="cantidad" class="producto__cantidad">
+                        <option value=""> --Seleccione-- </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <input class="producto__agregar-carrito" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div> <!-- .producto -->
+    </main>
+
+    <footer class="footer">
+        <div class="footer__grid footer__contenedor">
+            <nav class="navegacion">
+                <a class="navegacion__enlace" href="/">Inicio</a>
+                <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                <a class="navegacion__enlace" href="blog.html">Blog</a>
+                <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+            </nav>
+            <p class="footer__copyright">
+                Todos los derechos reservados. GuitarLA &copy;
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
